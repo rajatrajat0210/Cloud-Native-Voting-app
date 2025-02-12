@@ -8,6 +8,10 @@ This guide outlines the steps to deploy a voting application on Kubernetes using
 - A PostgreSQL database
 - A result app to display the results
 
+## Summary
+
+This project is a cloud-native web voting application where users can vote for their preferred programming language. It features a React frontend, a Go-based API backend, and a MongoDB replica set for data storage. The application is deployed on Kubernetes, utilizing various resources like Deployments, StatefulSets, Services, and Secrets for scalability, high availability, and security.
+
 ## Prerequisites
 Ensure you have the following installed and configured:
 - [Docker](https://www.docker.com/get-started)
